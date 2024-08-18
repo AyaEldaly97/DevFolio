@@ -1,0 +1,32 @@
+@media (min-width: 1400px) {
+
+    .container{
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-collapse .navbar-nav {
+        background-color: #f5f5f5;
+        box-shadow: 0 0 10px 0 #0004;
+    }
+
+    .navbar-collapse .navbar-nav li a{
+        color: var(--text-color);
+    }
+
+    .navbar .nav-link.active{
+        color: var(--heading-color);
+    }
+
+    ul.navbar-nav > li > a::before{
+        display: none;
+    }
+
+    li.dropdown:hover ul.dropdown-menu{
+        background-color: #ffffff;
+        width: 95%;
+        border: 1px solid rgba(217, 217, 217, 0.664);
+        margin-inline: auto;
+    }
+}

@@ -1,0 +1,19 @@
+@keyframes developer {
+    0%, 25%, 100% {width: 0%;}
+    12.5%, 22.5% {width: calc(9 * 21.99px);}
+}
+
+@keyframes designer {
+    0%, 25%, 50%, 100% {width: 0%;}
+    37.5%, 47.5% {width: calc(8 * 21.99px);}
+}
+
+@keyframes freelancer {
+    0%, 50%, 75%, 100% {width: 0%;}
+    62.5%, 72.5% {width: calc(10 * 21.99px);}
+}
+
+@keyframes photographer{
+    0%, 75%, 100% {width: 0%;}
+    87.5%, 97.5% {width: calc(12 * 21.99px);}
+}
